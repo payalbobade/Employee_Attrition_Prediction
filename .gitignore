@@ -1,0 +1,53 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+*.env
+secrets.yaml
+
+# Data (keep large datasets out of git — use a download script instead)
+dataset/raw/
+*.csv
+*.parquet
+!dataset/sample/*.csv
+
+# Model artifacts (track via releases/LFS, not raw commits)
+models/*.h5
+models/*.pt
+models/*.pkl
+models/*.onnx
+!models/.gitkeep
+
+# Logs
+*.log
+logs/
+mlruns/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
