@@ -91,7 +91,6 @@ Final architecture: **2 hidden layers (32→16)**, He-normal initialization, lig
 | Logistic Regression | 0.813 |
 | Final ANN | 0.752 |
 
-*(Logistic Regression outperformed the ANN on ROC-AUC in this dataset — reported honestly, as a genuine and instructive finding rather than an inflated claim.)*
 
 ## 🧭 Key Learnings
 
